@@ -73,16 +73,56 @@
         ]
       },
       {
-        "name": "CalculatedTable 1",
+        "name": "employee_detail",
+        "columns": [
+          {
+            "name": "EmployeeID",
+            "dataType": "int64",
+            "sourceColumn": "EmployeeID"
+          },
+          {
+            "name": "Email",
+            "dataType": "string",
+            "sourceColumn": "Email"
+          },
+          {
+            "name": "PhoneNumber",
+            "dataType": "string",
+            "sourceColumn": "PhoneNumber"
+          },
+          {
+            "name": "Address",
+            "dataType": "string",
+            "sourceColumn": "Address"
+          }
+        ],
         "partitions": [
           {
-            "name": "CalculatedTable 1",
+            "name": "Partition",
+            "dataView": "full",
             "source": {
-              "type": "calculated",
-              "expression": "ADDCOLUMNS(employee.firstname)"
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #\"SQL/DESKTOP-LATHV0T;employeedb\",",
+                "    dbo_employee_detail = Source{[Schema=\"dbo\",Item=\"employee_detail\"]}[Data]",
+                "in",
+                "    dbo_employee_detail"
+              ]
             }
           }
         ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "7411394a-5726-4797-8408-373def41999e",
+        "fromCardinality": "one",
+        "fromTable": "employee",
+        "fromColumn": "EmployeeID",
+        "toTable": "employee_detail",
+        "toColumn": "EmployeeID",
+        "crossFilteringBehavior": "bothDirections"
       }
     ],
     "annotations": [
