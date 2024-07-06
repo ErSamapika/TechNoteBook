@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\dotnetcore-workspace\\TabularProject_Analysys\\",
+  "WorkspaceRootPath": "F:\\TechNoteBook\\TabularProject_Analysys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CE414BB-95B2-4C99-9E03-51BA72086E22}|TabularProject_Analysys.smproj|F:\\dotnetcore-workspace\\TabularProject_Analysys\\Model.bim||{9EE154FA-5389-414A-9FA1-1D9F0221267D}",
+      "AbsoluteMoniker": "D:0:0:{8CE414BB-95B2-4C99-9E03-51BA72086E22}|TabularProject_Analysys.smproj|F:\\TechNoteBook\\TabularProject_Analysys\\Model.bim||{9EE154FA-5389-414A-9FA1-1D9F0221267D}",
       "RelativeMoniker": "D:0:0:{8CE414BB-95B2-4C99-9E03-51BA72086E22}|TabularProject_Analysys.smproj|solutionrelative:Model.bim||{9EE154FA-5389-414A-9FA1-1D9F0221267D}"
     }
   ],
@@ -20,13 +20,17 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Model.bim",
-              "DocumentMoniker": "F:\\dotnetcore-workspace\\TabularProject_Analysys\\Model.bim",
+              "DocumentMoniker": "F:\\TechNoteBook\\TabularProject_Analysys\\Model.bim",
               "RelativeDocumentMoniker": "Model.bim",
-              "ToolTip": "F:\\dotnetcore-workspace\\TabularProject_Analysys\\Model.bim",
+              "ToolTip": "F:\\TechNoteBook\\TabularProject_Analysys\\Model.bim",
               "RelativeToolTip": "Model.bim",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-06-23T11:02:47.712Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
